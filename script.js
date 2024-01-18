@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function () {
             gameOver = true;
             alert("Boom! Hai colpito una bomba. Il tuo punteggio è: " + punteggio);
         } else {
-            // Cellula sicura
+            // Cella sicura
             cellaCliccata.style.backgroundColor = 'lightblue';
             punteggio++;
 
